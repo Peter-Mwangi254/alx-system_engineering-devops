@@ -2,3 +2,5 @@
 # Script that displays contents of /etc/passwd
 
 while IFS=: read -r username password userid groupid nameuser home shell; do
+    echo "The user $username is part of the $groupid gang, lives in $home and rides $shell. $userid's place is protected by the passcode $password, more info about the user here: $nameuser"
+done < /etc/passwd
