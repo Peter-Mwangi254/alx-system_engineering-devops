@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that displays contents of /etc/passwd
+
+while IFS=: read -r username password userid groupid nameuser home shell; do

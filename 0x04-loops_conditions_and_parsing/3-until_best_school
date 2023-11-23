@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script displays "Best School" 10 times
+counter=1
+until (("$counter" >= 11));do
+    echo "Best School"
+    counter=$((counter + 1))
+done

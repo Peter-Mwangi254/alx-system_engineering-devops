@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Script that displays "Best School" 10 times but at the 9th iteration it displays Best School then Hi on a new line
+counter=1
+while [ "$counter" -le 10 ]; do
+    echo "Best School"
+    if [ "$counter" -eq 9 ]
+    then
+        echo "Hi"
+    fi
+    counter=$((counter + 1))
+done
