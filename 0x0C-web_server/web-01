@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
 
+ssh ubuntu@34.224.62.9
